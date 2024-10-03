@@ -17,5 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // TOGGLE VISIBILITY OF BODY
     groupBody.classList.toggle("open");
+
+    // CLOSE OTHER OPEN FAQ BODIES
+    const otherGroups = faqContainer.querySelectorAll(".faq-group");
   });
 });
