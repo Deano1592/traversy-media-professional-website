@@ -223,6 +223,7 @@ img {
 
 .footer h4 {
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .footer ul li {
@@ -243,7 +244,7 @@ img {
     grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 30px;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .footer .card {
@@ -372,4 +373,19 @@ img {
 .bg-black {
     background: #000;
     color: #fff;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
+    
+}
+
+@media (max-width: 670px) {
+    .navbar .main-menu {
+    display: none;
+}
+}
+
+@media (max-width: 500px) {
+
 }
