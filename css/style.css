@@ -451,6 +451,13 @@ img {
   .hero .hero-text {
     width: 100%;
     text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .hero .hero-buttons .btn {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
   }
 }
 
