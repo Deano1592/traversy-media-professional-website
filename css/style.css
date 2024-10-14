@@ -472,6 +472,14 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .footer .card {
+    margin-right: 0;
+  }
+
+  .footer .footer-grid > div {
+    text-align: center;
+  }
+
   /* TEXT */
   .text-xl {
     font-size: 1.9rem;
@@ -487,4 +495,7 @@ img {
 }
 
 @media (max-width: 500px) {
+  .text-xxl {
+    font-size: 2rem;
+  }
 }
